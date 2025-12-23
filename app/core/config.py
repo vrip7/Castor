@@ -215,7 +215,7 @@ class Settings(BaseSettings):
     
     # Server settings
     host: str = Field(default="0.0.0.0", alias="HOST")
-    port: int = Field(default=8000, ge=1, le=65535, alias="PORT")
+    port: int = Field(default=6297, ge=1, le=65535, alias="PORT")
     workers: int = Field(default=4, ge=1, le=32, alias="WORKERS")
     
     # Metrics

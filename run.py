@@ -5,7 +5,7 @@ Development server runner.
 Usage:
     python run.py
     python run.py --reload
-    python run.py --host 0.0.0.0 --port 8000
+    python run.py --host 0.0.0.0 --port 6297
 """
 
 import argparse
@@ -26,8 +26,8 @@ def main():
     parser.add_argument(
         "--port",
         type=int,
-        default=8000,
-        help="Port to bind to (default: 8000)",
+        default=6297,
+        help="Port to bind to (default: 6297)",
     )
     parser.add_argument(
         "--reload",

@@ -77,10 +77,10 @@ USER castor
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8000/health || exit 1
+    CMD curl -f http://localhost:6297/health || exit 1
 
 # Expose port
-EXPOSE 8000
+EXPOSE 6297
 
 # Use dumb-init as PID 1 to handle signals properly
 ENTRYPOINT ["/usr/bin/dumb-init", "--", "./entrypoint.sh"]
