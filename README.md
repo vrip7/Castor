@@ -39,7 +39,7 @@ An open-source, production-grade authentication API with end-to-end encryption a
 ### Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/castor.git
+git clone https://github.com/vrip7/castor.git
 cd castor
 
 # Copy environment file
