@@ -1,7 +1,11 @@
 # Castor Auth API
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com)
+
 ## Overview
-Production-grade, enterprise-level authentication API with end-to-end encryption and comprehensive security measures.
+An open-source, production-grade authentication API with end-to-end encryption and comprehensive security measures. Built with FastAPI, PostgreSQL, and Redis.
 
 ## Security Features
 - End-to-end encryption using AES-256-GCM
@@ -34,6 +38,10 @@ Production-grade, enterprise-level authentication API with end-to-end encryption
 
 ### Development Setup
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/castor.git
+cd castor
+
 # Copy environment file
 cp .env.example .env
 
@@ -66,5 +74,19 @@ Once running, access the API documentation at:
 ## Environment Variables
 See `.env.example` for all configuration options.
 
+## Contributing
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your code follows the existing style and includes appropriate tests.
+
+## Security
+If you discover a security vulnerability, please report it responsibly by opening a private security advisory on GitHub rather than a public issue.
+
 ## License
-Proprietary - All Rights Reserved
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
